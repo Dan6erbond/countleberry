@@ -20,7 +20,8 @@
     "vite": "^5.0.11",
     "vite-plugin-pwa": "^0.20.1",
     "vite-plugin-solid": "^2.8.2",
-    "vite-tsconfig-paths": "^5.0.1"
+    "vite-tsconfig-paths": "^5.0.1",
+    "workbox-window": "^7.1.0"
   },
   "dependencies": {
     "@ark-ui/solid": "^3.7.0",
