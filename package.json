@@ -7,15 +7,18 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator"
   },
   "license": "MIT",
   "devDependencies": {
     "@pandacss/dev": "^0.45.1",
     "@park-ui/panda-preset": "^0.42.0",
+    "@vite-pwa/assets-generator": "^0.2.4",
     "solid-devtools": "^0.29.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.11",
+    "vite-plugin-pwa": "^0.20.1",
     "vite-plugin-solid": "^2.8.2",
     "vite-tsconfig-paths": "^5.0.1"
   },
