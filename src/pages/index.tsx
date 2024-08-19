@@ -111,11 +111,34 @@ const Home: Component = () => {
                   (e.value[0] as CountersChartType | undefined) ?? chartType()
                 )
               }
+              class={css({
+                display: "flex",
+                borderRadius: "l3",
+                borderWidth: 2,
+              })}
             >
-              <ToggleGroup.Item value="bar">
+              <ToggleGroup.Item
+                value="bar"
+                class={css({
+                  p: 2,
+                  borderRadius: "l3",
+                  "&[data-state=on]": {
+                    bg: "gray.a3",
+                  },
+                })}
+              >
                 <TbChartBar />
               </ToggleGroup.Item>
-              <ToggleGroup.Item value="line">
+              <ToggleGroup.Item
+                value="line"
+                class={css({
+                  p: 2,
+                  borderRadius: "l2",
+                  "&[data-state=on]": {
+                    bg: "gray.a3",
+                  },
+                })}
+              >
                 <TbChartLine />
               </ToggleGroup.Item>
             </ToggleGroup.Root>
